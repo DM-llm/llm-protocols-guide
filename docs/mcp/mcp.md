@@ -157,19 +157,21 @@ Function Calling让AI学会了"打电话找人帮忙"，但每个AI平台的"电
 
 可以看出大模型自动调用了6个工具！
 
+![MCP工具调用展示](.//img/02.png)
+
 但我们只添加了一个MCP服务哦，因为高德地图的Amap Maps的MCP服务包含了多个工具！
 
-![MCP工具调用展示](images/mcp-tools-demo.png)
+![添加插件步骤](.//img/03.png)
 
 但是如果是阿里云百炼平台的插件呢，可能就麻烦了许多，不仅要去找到对应的地图插件工具，还不一定保证插件与插件之间的结果能够互相调用。
 
 我们以天气查询为例，我们要先在阿里云百炼平台添加插件：
 
-![添加插件步骤](images/add-plugin-step.png)
+![插件对话效果](.//img/04.png)
 
 然后我们进行对话看看效果~
 
-![插件对话效果](images/plugin-chat-demo.png)
+![插件对话效果](.//img/05.png)
 
 可以看出，如果我们添加多个插件工具，也是能实现MCP类似的效果，但是这二者的区别在哪呢？
 
@@ -183,8 +185,12 @@ MCP更厉害的地方在于，如果我想去别的平台调用同样的高德�
 
 链接：https://bailian.console.aliyun.com/
 
-![阿里云百炼开通页面](images/bailian-homepage.png)
-
+![阿里云百炼开通页面](.//img/06.png)
+![阿里云百炼开通页面](.//img/07.png)
+![阿里云百炼开通页面](.//img/08.png)
+![阿里云百炼开通页面](.//img/09.png)
+![阿里云百炼开通页面](.//img/10.png)
+![阿里云百炼开通页面](.//img/11.png)
 **查找MCP Server**
 
 在MCP市场找到对应的MCP Server，开通你所需要的MCP服务~
@@ -193,37 +199,43 @@ MCP更厉害的地方在于，如果我想去别的平台调用同样的高德�
 
 1. 跳转MCP市场
 
-![MCP市场页面](images/mcp-market.png)
+![MCP市场页面](.//img/12.png)
+
 
 2. 查看开通方法
 
-![MCP服务开通方法](images/mcp-service-setup.png)
+![MCP服务开通方法](.//img/13.png)
 
 3. 点击【立即开通】
 
-![立即开通按钮](images/mcp-activate-button.png)
+![立即开通按钮](.//img/14.png)
 
 ### Step2：构建Agent智能体
 
 我们先创建智能体应用，选择左边第一个~
 
-![创建智能体应用](images/create-agent-app.png)
+![创建智能体应用](.//img/15.png)
 
 然后设置你想要的模型、配置你的选择MCP服务~
 
-![配置模型和MCP服务](images/config-model-mcp.png)
+![配置模型和MCP服务](.//img/16.png)
+![设置智能体提示词](.//img/17.png)
 
 之后设置智能体的提示词~
 
-![设置智能体提示词](images/set-agent-prompt.png)
+
+![测试和调试界面](.//img/18.png)
 
 最后就可以测试效果和调试提示词了！
 
-![测试和调试界面](images/test-debug-interface.png)
+
+![发布应用](.//img/19.png)
 
 ### Step3：发布应用！
 
-![发布应用](images/publish-app.png)
+
+![发布应用](.//img/20.png)
+![发布应用](.//img/21.png)
 
 至此，我们便完成了一个MCP应用开发！
 
