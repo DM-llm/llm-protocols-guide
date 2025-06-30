@@ -1,35 +1,29 @@
-# 项目名称
+# 大模型协议入门教程
 
-*这里写项目的各类介绍信息、背景、动机等内容*
+*本教程专为零基础小白设计，用最浅显易懂的方式带你了解各种大模型协议。从MCP开始，逐步覆盖其他重要的大模型交互协议。无论你是文科生还是技术小白，都能轻松上手，从基础概念开始，逐步进阶到实际应用。*
 
 ## 项目受众
 
-*注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
+本项目面向对大模型协议感兴趣的零基础学习者，包括文科生、技术小白等完全没有编程背景的用户。通过本教程，你将能够：
+- 用大白话理解各种大模型协议的核心概念
+- 掌握协议的实际应用场景和操作方法  
+- 建立对AI工具调用机制的基础认知
+- 学会在主流平台进行实战操作
+
+学习本教程无需任何编程基础、技术背景或数学基础，只需要会基本的电脑操作，保持好奇心和耐心即可。
 
 ## 目录
-*这里写你的项目目录，已完成的部分用添加上跳转链接*
-- [第1章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1/chapter1.md)
-- [第2章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)
-  - [2.1 我是2.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2/chapter2_1.md)
-  - [2.2 我是2.2的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2/chapter2_2.md)
-- [第3章](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)
-  - [3.1 我是3.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1)
-    - [3.1.1 我是3.1.1的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1/chapter3_1_1.md)
-    - [3.1.2 我是3.1.2的标题](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3/chapter3_1/chapter3_1_2.md)
-  - 3.2 我是3.2的标题
-- 第4章
-  - 4.1 我是4.1的标题
-  - 4.2 我是4.2的标题
+
+- [第1章 MCP协议入门](docs/chapter1/mcp-introduction.md)
+- 第2章 其他协议
+- 第3章 协议对比与选择
+- 第4章 实战应用进阶
 
 ## 贡献者名单
 
 | 姓名 | 职责 | 简介 |
 | :----| :---- | :---- |
-| 小明 | 项目负责人 | 一个理想主义者 |
-| 小红 | 第1章贡献者 | 小明的朋友 |
-| 小强 | 第2章贡献者 | 小明的朋友 |
-
-*注：表头可自定义，但必须在名单中标明项目负责人*
+| 您的姓名 | 项目负责人 | 大模型协议入门教程作者 |
 
 ## 参与贡献
 
@@ -47,5 +41,3 @@
 ## LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
-
-*注：默认使用CC 4.0协议，也可根据自身项目情况选用其他协议*
